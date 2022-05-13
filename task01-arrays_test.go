@@ -5,12 +5,12 @@ import "testing"
 func Test_average(t *testing.T) {
 	tests := []struct {
 		name  string
-		input [6]float32
+		input [15]float32
 		want  float32
 	}{
 		{
 			name:  "Should return avarage 3.5",
-			input: [6]float32{1, 2, 3, 4, 5, 6},
+			input: [15]float32{1, 2, 3, 4, 5, 6},
 			want:  3.5,
 		},
 	}
